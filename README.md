@@ -1,5 +1,5 @@
 
-## For use this template just type
+## For run this app
 1. ### `npm install`
 2. ### `npm start`
 
