@@ -4,7 +4,7 @@ import Conversion from '../../components/conversion/Conversion';
 import useWindowWidth from '../../hooks/useWindowWidth';
 
 const RightSide = () => {
-    const onSmallScreen = useWindowWidth(575);
+    const onSmallScreen = useWindowWidth(991);
     return (
         <>
             {
