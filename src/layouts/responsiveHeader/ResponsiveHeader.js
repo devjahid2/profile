@@ -6,7 +6,7 @@ import { AppContext } from '../../App';
 const ResponsiveHeader = () => {
     const [context,setContext] = useContext(AppContext)
     return (
-        <div className='d-flex align-items-center justify-content-between p-3'>
+        <div className='d-flex align-items-center justify-content-between py-3'>
             <div className="pointer">
                 <img onClick={() => setContext({...context,leftMenuOpen:true})} className='menu-icon' src={images.menu} alt="menu icon" />
             </div>
