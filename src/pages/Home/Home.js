@@ -8,7 +8,7 @@ import useWindowWidth from './../../hooks/useWindowWidth';
 import ResponsiveHeader from '../../layouts/responsiveHeader/ResponsiveHeader';
 
 const Home = () => {
-    const onSmallScreen = useWindowWidth(575);
+    const onSmallScreen = useWindowWidth(991);
     return (
         <Container>
             <div className="row">

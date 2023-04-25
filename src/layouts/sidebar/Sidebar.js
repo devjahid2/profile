@@ -5,7 +5,7 @@ import useWindowWidth from "../../hooks/useWindowWidth";
 import { AppContext } from "../../App";
 
 const Sidebar = () => {
-  const onSmallScreen = useWindowWidth(575);
+  const onSmallScreen = useWindowWidth(991);
   const [context,setContext] = useContext(AppContext)
   return (
     <>{

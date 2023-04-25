@@ -8,5 +8,5 @@ import plus_circle from './plus_circle.png'
 import home from './home.png'
 import menu from './menu.png'
 import close from './close.png'
-
-export  const images = {user_circle,users,passion,search,plus,settings,plus_circle,home,menu,close}
+import user_white from './user_circle_white.png'
+export  const images = {user_circle,users,passion,search,plus,settings,plus_circle,home,menu,close,user_white}
